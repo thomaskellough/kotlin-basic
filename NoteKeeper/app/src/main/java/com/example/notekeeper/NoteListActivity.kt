@@ -12,6 +12,8 @@ import kotlinx.android.synthetic.main.content_note_list.*
 
 class NoteListActivity : AppCompatActivity() {
 
+    var nextTaps = 0
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_note_list)
@@ -45,8 +47,28 @@ class NoteListActivity : AppCompatActivity() {
         // as you specify a parent activity in AndroidManifest.xml.
         return when (item.itemId) {
             R.id.action_settings -> true
+            R.id.action_next -> {
+                moveNext()
+                true
+            }
 
             else -> super.onOptionsItemSelected(item)
         }
+    }
+
+    private fun moveNext() {
+        ++nextTaps
+        invalidateOptionsMenu()
+    }
+
+    override fun onPrepareOptionsMenu(menu: Menu?): Boolean {
+        if(nextTaps >= listNotes.count) {
+            val menuItem = menu?.findItem(R.id.action_next)
+            if(menuItem != null) {
+                menuItem.icon = getDrawable(R.drawable.ic_baseline_block_24)
+                menuItem.isEnabled = false
+            }
+        }
+        return super.onPrepareOptionsMenu(menu)
     }
 }

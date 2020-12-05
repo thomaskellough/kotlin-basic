@@ -6,6 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:importantForAccessibility="no"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/birthdayimage" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -13,6 +25,10 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:fontFamily="casual"
+        android:shadowColor="#0B0A0A"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="3"
         android:text="@string/birthday_message"
         android:textColor="#9C27B0"
         android:textSize="36sp"
@@ -26,9 +42,14 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:fontFamily="casual"
+        android:shadowColor="#070606"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="3"
         android:text="@string/from_message"
         android:textColor="#9C27B0"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

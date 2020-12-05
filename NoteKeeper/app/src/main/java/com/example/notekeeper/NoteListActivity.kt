@@ -2,6 +2,7 @@ package com.example.notekeeper
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.Menu
 import android.widget.ArrayAdapter
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
@@ -27,5 +28,11 @@ class NoteListActivity : AppCompatActivity() {
             activityIntent.putExtra(EXTRA_NOTE_POSITION, position)
             startActivity(activityIntent)
         }
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        menuInflater.inflate(R.menu.menu_main, menu)
+        return true
     }
 }

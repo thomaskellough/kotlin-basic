@@ -1,6 +1,8 @@
 package com.example.notekeeper
 
-class DataManager {
+
+// Change our 'class' to an 'object' to create a singleton
+object DataManager {
     val courses = HashMap<String, CourseInfo>()
     val notes = ArrayList<NoteInfo>()
 
@@ -20,5 +22,15 @@ class DataManager {
 
         course = CourseInfo(courseId = "java_core", title = "Java Fundamentals: The Core Platform")
         courses.set(course.courseId, course)
+
+        initializeTestNotes(course)
+    }
+
+    private fun initializeTestNotes(course: CourseInfo) {
+        var note1 = NoteInfo(title = "The Best Mobile SDKs", text = "Anything that isn't Xamarin", course = course)
+        var note2 = NoteInfo(title = "The Worst Mobile SDKs", text = "Xamarin, Xamarin, and Xamarin", course = course)
+
+        notes.add(note1)
+        notes.add(note2)
     }
 }

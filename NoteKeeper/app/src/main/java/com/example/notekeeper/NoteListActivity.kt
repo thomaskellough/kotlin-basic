@@ -6,13 +6,13 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.ArrayAdapter
 import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.content_note_list.*
 
 class NoteListActivity : AppCompatActivity() {
 
     var nextTaps = 0
+    private var notePosition = POSITION_NOT_SET
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,7 +28,7 @@ class NoteListActivity : AppCompatActivity() {
 
         listNotes.setOnItemClickListener{parent, view, position, id ->
             val activityIntent = Intent(this, MainActivity::class.java)
-            activityIntent.putExtra(EXTRA_NOTE_POSITION, position)
+            activityIntent.putExtra(NOTE_POSITION, position)
             startActivity(activityIntent)
         }
     }
@@ -61,6 +61,11 @@ class NoteListActivity : AppCompatActivity() {
         invalidateOptionsMenu()
     }
 
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+        outState.putInt(NOTE_POSITION, notePosition)
+    }
+
     override fun onPrepareOptionsMenu(menu: Menu?): Boolean {
         if(nextTaps >= listNotes.count) {
             val menuItem = menu?.findItem(R.id.action_next)
@@ -70,5 +75,10 @@ class NoteListActivity : AppCompatActivity() {
             }
         }
         return super.onPrepareOptionsMenu(menu)
+    }
+
+    override fun onResume() {
+        super.onResume()
+        (listNotes.adapter as ArrayAdapter<NoteInfo>).notifyDataSetChanged()
     }
 }

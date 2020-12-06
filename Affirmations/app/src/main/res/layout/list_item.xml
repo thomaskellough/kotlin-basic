@@ -15,7 +15,7 @@
         <ImageView
             android:id="@+id/item_image"
             android:layout_width="match_parent"
-            android:layout_height="194dp"
+            android:layout_height="wrap_content"
             android:importantForAccessibility="no"
             android:scaleType="centerCrop" />
 
@@ -23,7 +23,7 @@
             android:id="@+id/item_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
             tools:text="I am strong" />
 
     </LinearLayout>

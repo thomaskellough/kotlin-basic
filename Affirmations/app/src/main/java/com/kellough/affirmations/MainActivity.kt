@@ -16,6 +16,6 @@ class MainActivity : AppCompatActivity() {
 
         val dataset = DataSource().loadAffirmations()
         binding.affirmationsRecyclerView.adapter = ItemAdapter(this, dataset)
-        binding.affirmationsRecyclerView.setHasFixedSize(true) // only used for performance - do not use if you you need different sizes
+//        binding.affirmationsRecyclerView.setHasFixedSize(true) // only used for performance - do not use if you you need different sizes
     }
 }

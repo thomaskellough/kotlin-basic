@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun calculateTip() {
-        val initialCost = binding.costOfService.text.toString().toDoubleOrNull()
+        val initialCost = binding.costOfServiceEditText.text.toString().toDoubleOrNull()
         if(initialCost == null) {
             val toast = Toast.makeText(this,"Please enter an initial amount.", Toast.LENGTH_SHORT)
             toast.show()

@@ -1,6 +1,7 @@
 package com.kellough.tiptime
 
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.kellough.tiptime.databinding.ActivityMainBinding
 import java.text.NumberFormat
@@ -18,7 +19,13 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun calculateTip() {
-        val initialCost = binding.costOfService.text.toString().toDouble()
+        val initialCost = binding.costOfService.text.toString().toDoubleOrNull()
+        if(initialCost == null) {
+            val toast = Toast.makeText(this,"Please enter an initial amount.", Toast.LENGTH_SHORT)
+            toast.show()
+            return
+        }
+
         val tipIndex = binding.tipOptions.checkedRadioButtonId
 
         val tipPercentage = when (tipIndex) {

@@ -36,13 +36,58 @@
         android:fontFamily="@font/amaranth"
         android:text="@string/done" />
 
-    <ImageView
-        android:id="@+id/star_image"
-        android:layout_width="match_parent"
+    <LinearLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/layout_margin"
-        app:srcCompat="@android:drawable/btn_star_big_on"
-        android:contentDescription="@string/yellow_star" />
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/star_image0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/layout_margin"
+            android:layout_marginLeft="@dimen/layout_margin_small"
+            android:layout_marginRight="@dimen/layout_margin_small"
+            app:srcCompat="@android:drawable/btn_star_big_on"
+            android:contentDescription="@string/yellow_star" />
+        <ImageView
+            android:id="@+id/star_image1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/layout_margin"
+            android:layout_marginLeft="@dimen/layout_margin_small"
+            android:layout_marginRight="@dimen/layout_margin_small"
+            app:srcCompat="@android:drawable/btn_star_big_on"
+            android:contentDescription="@string/yellow_star" />
+        <ImageView
+            android:id="@+id/star_image2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/layout_margin"
+            android:layout_marginLeft="@dimen/layout_margin_small"
+            android:layout_marginRight="@dimen/layout_margin_small"
+            app:srcCompat="@android:drawable/btn_star_big_on"
+            android:contentDescription="@string/yellow_star" />
+        <ImageView
+            android:id="@+id/star_image3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/layout_margin"
+            android:layout_marginLeft="@dimen/layout_margin_small"
+            android:layout_marginRight="@dimen/layout_margin_small"
+            app:srcCompat="@android:drawable/btn_star_big_on"
+            android:contentDescription="@string/yellow_star" />
+        <ImageView
+            android:id="@+id/star_image4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/layout_margin"
+            android:layout_marginLeft="@dimen/layout_margin_small"
+            android:layout_marginRight="@dimen/layout_margin_small"
+            app:srcCompat="@android:drawable/btn_star_big_on"
+            android:contentDescription="@string/yellow_star" />
+
+    </LinearLayout>
 
     <ScrollView
         android:id="@+id/bio_scroll"

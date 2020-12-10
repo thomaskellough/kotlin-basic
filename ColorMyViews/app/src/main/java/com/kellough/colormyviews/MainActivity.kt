@@ -1,6 +1,5 @@
 package com.kellough.colormyviews
 
-import android.graphics.Color
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
@@ -19,12 +18,12 @@ class MainActivity : AppCompatActivity() {
 
     private fun makeColored(view: View) {
         when (view) {
-            binding.boxOne -> view.setBackgroundColor(Color.DKGRAY)
-            binding.boxTwo -> view.setBackgroundColor(Color.GRAY)
-            binding.boxThree -> view.setBackgroundColor(Color.BLUE)
-            binding.boxFour -> view.setBackgroundColor(Color.MAGENTA)
-            binding.boxFive -> view.setBackgroundColor(Color.RED)
-            else -> view.setBackgroundColor(Color.LTGRAY)
+            binding.boxOne -> view.setBackgroundResource(R.drawable.image1)
+            binding.boxTwo -> view.setBackgroundResource(R.drawable.image2)
+            binding.boxThree -> view.setBackgroundResource(R.drawable.image3)
+            binding.boxFour -> view.setBackgroundResource(R.drawable.image4)
+            binding.boxFive -> view.setBackgroundResource(R.drawable.image5)
+            else -> view.setBackgroundResource(R.drawable.image6)
         }
     }
 

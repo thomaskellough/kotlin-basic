@@ -1,6 +1,7 @@
 package com.example.android.navigation
 
 import android.os.Bundle
+import android.service.quicksettings.Tile
 import android.view.*
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
@@ -17,13 +18,13 @@ class TitleFragment : Fragment() {
                 R.layout.fragment_title,container,false)
 
         binding.playButton.setOnClickListener { view : View ->
-            view.findNavController().navigate(R.id.action_titleFragment_to_gameFragment)
+            view.findNavController().navigate(TitleFragmentDirections.actionTitleFragmentToGameFragment())
         }
         binding.rulesButton.setOnClickListener { view: View ->
-            view.findNavController().navigate(R.id.action_titleFragment_to_rulesFragment)
+            view.findNavController().navigate(TitleFragmentDirections.actionTitleFragmentToRulesFragment())
         }
         binding.aboutButton.setOnClickListener { view: View ->
-            view.findNavController().navigate(R.id.action_titleFragment_to_aboutFragment)
+            view.findNavController().navigate(TitleFragmentDirections.actionTitleFragmentToAboutFragment())
         }
 
         setHasOptionsMenu(true)

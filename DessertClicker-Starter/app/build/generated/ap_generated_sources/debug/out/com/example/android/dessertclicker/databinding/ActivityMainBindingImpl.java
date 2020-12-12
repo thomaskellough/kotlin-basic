@@ -23,8 +23,6 @@ public class ActivityMainBindingImpl extends ActivityMainBinding  {
         sViewsWithIds.put(R.id.dessert_sold_text, 9);
     }
     // views
-    @NonNull
-    private final androidx.constraintlayout.widget.ConstraintLayout mboundView0;
     // variables
     // values
     // listeners
@@ -39,6 +37,7 @@ public class ActivityMainBindingImpl extends ActivityMainBinding  {
             , (android.widget.ImageView) bindings[3]
             , (android.widget.ImageButton) bindings[7]
             , (android.widget.TextView) bindings[9]
+            , (androidx.constraintlayout.widget.ConstraintLayout) bindings[0]
             , (androidx.constraintlayout.widget.Guideline) bindings[5]
             , (androidx.constraintlayout.widget.Guideline) bindings[4]
             , (androidx.constraintlayout.widget.Guideline) bindings[6]
@@ -46,8 +45,7 @@ public class ActivityMainBindingImpl extends ActivityMainBinding  {
             , (android.view.View) bindings[8]
             );
         this.amountSoldText.setTag(null);
-        this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
-        this.mboundView0.setTag(null);
+        this.mainView.setTag(null);
         this.revenueText.setTag(null);
         setRootTag(root);
         // listeners

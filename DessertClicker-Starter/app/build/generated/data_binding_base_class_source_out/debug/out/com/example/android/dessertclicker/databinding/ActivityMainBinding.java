@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.constraintlayout.widget.Guideline;
 import androidx.databinding.Bindable;
 import androidx.databinding.DataBindingUtil;
@@ -29,6 +30,9 @@ public abstract class ActivityMainBinding extends ViewDataBinding {
 
   @NonNull
   public final TextView dessertSoldText;
+
+  @NonNull
+  public final ConstraintLayout mainView;
 
   @NonNull
   public final Guideline marginBottomGuide;
@@ -53,13 +57,15 @@ public abstract class ActivityMainBinding extends ViewDataBinding {
 
   protected ActivityMainBinding(Object _bindingComponent, View _root, int _localFieldCount,
       TextView amountSoldText, ImageView backgroundImage, ImageButton dessertButton,
-      TextView dessertSoldText, Guideline marginBottomGuide, Guideline marginEndGuide,
-      Guideline marginStartGuide, TextView revenueText, View whiteBackground) {
+      TextView dessertSoldText, ConstraintLayout mainView, Guideline marginBottomGuide,
+      Guideline marginEndGuide, Guideline marginStartGuide, TextView revenueText,
+      View whiteBackground) {
     super(_bindingComponent, _root, _localFieldCount);
     this.amountSoldText = amountSoldText;
     this.backgroundImage = backgroundImage;
     this.dessertButton = dessertButton;
     this.dessertSoldText = dessertSoldText;
+    this.mainView = mainView;
     this.marginBottomGuide = marginBottomGuide;
     this.marginEndGuide = marginEndGuide;
     this.marginStartGuide = marginStartGuide;

@@ -980,6 +980,7 @@ id line3
 id linear
 id listMode
 id list_item
+id main_view
 id margin_bottom_guide
 id margin_end_guide
 id margin_start_guide

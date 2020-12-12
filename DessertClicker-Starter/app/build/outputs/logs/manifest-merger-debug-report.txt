@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:17:1-37:12
-INJECTED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:17:1-37:12
-INJECTED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:17:1-37:12
-INJECTED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:17:1-37:12
+ADDED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:17:1-38:12
+INJECTED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:17:1-38:12
+INJECTED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:17:1-38:12
+INJECTED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:17:1-38:12
 MERGED from [androidx.databinding:databinding-adapters:4.0.1] /Users/thomas.kellough/.gradle/caches/transforms-2/files-2.1/78de48537f47c47c2e3be0ec46cf1045/databinding-adapters-4.0.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:4.0.1] /Users/thomas.kellough/.gradle/caches/transforms-2/files-2.1/3f5423e23ce793b48c43afd78a3916f9/databinding-runtime-4.0.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-rc1] /Users/thomas.kellough/.gradle/caches/transforms-2/files-2.1/3ba82d8c592bb9ebc42975836c540616/constraintlayout-2.0.0-rc1/AndroidManifest.xml:2:1-11:12
@@ -29,25 +29,25 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/thomas.kellough/.g
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/thomas.kellough/.gradle/caches/transforms-2/files-2.1/b77732ae052c8a7beadaefc4f5cc2d1b/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/thomas.kellough/.gradle/caches/transforms-2/files-2.1/cfdba3a9d264c21140cf4b27a073b375/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/thomas.kellough/.gradle/caches/transforms-2/files-2.1/ef7f8b788d30752a01fb2308ec81e29a/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:17:1-37:12
-INJECTED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:17:1-37:12
-INJECTED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:17:1-37:12
+INJECTED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:17:1-38:12
+INJECTED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:17:1-38:12
+INJECTED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:17:1-38:12
 	package
 		ADDED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:18:5-49
 		INJECTED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml
-		ADDED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:17:1-37:12
+		ADDED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:17:1-38:12
 		INJECTED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml
-		ADDED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:17:1-37:12
+		ADDED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:17:1-38:12
 		INJECTED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:17:11-69
 application
-ADDED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:20:5-35:19
+ADDED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:20:5-36:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-rc1] /Users/thomas.kellough/.gradle/caches/transforms-2/files-2.1/3ba82d8c592bb9ebc42975836c540616/constraintlayout-2.0.0-rc1/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-rc1] /Users/thomas.kellough/.gradle/caches/transforms-2/files-2.1/3ba82d8c592bb9ebc42975836c540616/constraintlayout-2.0.0-rc1/AndroidManifest.xml:9:5-20
 MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/thomas.kellough/.gradle/caches/transforms-2/files-2.1/7ec1197eff5064f927c1d0ae841c5523/jetified-timber-4.7.1/AndroidManifest.xml:7:5-20
@@ -62,6 +62,8 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/thom
 		ADDED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:26:9-35
 	android:label
 		ADDED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:24:9-41
+	android:launchMode
+		ADDED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:27:9-39
 	android:roundIcon
 		ADDED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:25:9-61
 	android:icon
@@ -69,23 +71,23 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/thom
 	android:allowBackup
 		ADDED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:22:9-35
 	android:theme
-		ADDED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:27:9-40
+		ADDED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:28:9-40
 	android:name
 		ADDED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:21:9-43
 activity#com.example.android.dessertclicker.MainActivity
-ADDED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:28:9-34:20
+ADDED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:29:9-35:20
 	android:name
-		ADDED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:28:19-81
+		ADDED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:29:19-81
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:29:13-33:29
+ADDED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:30:13-34:29
 action#android.intent.action.MAIN
-ADDED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:30:17-69
+ADDED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:31:17-69
 	android:name
-		ADDED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:30:25-66
+		ADDED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:31:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:32:17-77
+ADDED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:33:17-77
 	android:name
-		ADDED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:32:27-74
+		ADDED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml:33:27-74
 uses-sdk
 INJECTED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/thomas.kellough/tommy/kotlin-basic/DessertClicker-Starter/app/src/main/AndroidManifest.xml
